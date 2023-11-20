@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+// @import "primeng/resources/primeng.css";
+// @import "primeicons/primeicons.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Space Grotesk', monospace;
+  font-weight: 400;
+}
+
+html,
+body {
+  height: 100%;
+}

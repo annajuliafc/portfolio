@@ -1,0 +1,42 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 96px;
+    width: 100%;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+        font-family: 'Space Grotesk', monospace;
+        text-shadow: -1px 0px 0px var(--primary-color), 1px 0px 0px #d6b0b1;
+        font-size: 24px;
+        animation: text-focus-in 1s ease-out 3s both;
+    }
+
+    ul {
+        display: flex;
+        gap: 32px;
+        list-style-type: none;
+
+        a {
+            font-size: 18px;
+            text-decoration: none;
+            color: var(--text-color);
+        }
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1
+    }
+}
